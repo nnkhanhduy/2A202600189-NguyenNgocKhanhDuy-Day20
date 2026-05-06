@@ -1,0 +1,171 @@
+{
+  "request": {
+    "query": "Explain multi-agent systems",
+    "max_sources": 5,
+    "audience": "technical learners"
+  },
+  "iteration": 4,
+  "route_history": [
+    "researcher",
+    "analyst",
+    "writer",
+    "done"
+  ],
+  "sources": [
+    {
+      "title": "Multi-Agent Systems: Architecture, Applications & Real-World Impact",
+      "url": "https://www.cognizant.com/us/en/ai-lab/blog/what-are-multi-agent-systems",
+      "snippet": "A multi-agent system is a collection of autonomous agents that perceive their environment, make decisions, and interact with one another.\n Multi-agent systems offer advantages such as scalability, resilience, improved coordination, and deeper system-level problem solving.\n Multi-agent systems depend on communication channels, cooperation strategies, alignment mechanisms, and clear role definitions in order to work effectively.\n Modern multi-agent systems increasingly incorporate LLM-powered agents for reasoning, natural language interpretation, and tool use.\n Designing a safe multi-agent system requires strong constraints, oversight layers, simulation testing, and consistent feedback loops. [...] ### What Is a Multi-Agent System?\n\n#### Inside a Multi-Agent System\n\nA multi-agent system is made up of multiple autonomous agents that operate in a shared environment. Each agent can perceive information, reason about what it observes, and take actions that move it toward a goal. In modern systems, these agents are often powered by large language models or other AI methods that give them the ability to plan tasks, use tools, or interpret unstructured data. [...] ### Frequently Asked Questions about Multi-Agent Systems\n\n#### What is a multi-agent system in simple terms?\n\nA multi-agent system is a group of autonomous AI agents that work together to solve a larger problem. Each agent handles a part of the task, and the system benefits from their combined intelligence and coordination.\n\n#### How do multi-agent systems compare to simply using a single powerful LLM?\n\nA single LLM handles tasks sequentially and requires full context, while a multi-agent system distributes work across specialized agents that can operate in parallel. This makes multi-agent systems more scalable, resilient, and better suited for complex workflows.\n\n#### What should I look for when choosing a multi-agent system framework?",
+      "metadata": {
+        "provider": "tavily"
+      }
+    },
+    {
+      "title": "Multi-agent systems | The Alan Turing Institute",
+      "url": "https://www.turing.ac.uk/research/interest-groups/multi-agent-systems",
+      "snippet": "## Introduction\n\nMulti-agent systems (MAS) are a core area of research of contemporary artificial intelligence. A multi-agent system consists of multiple decision-making agents which interact in a shared environment to achieve common or conflicting goals. MAS research spans a range of technical problems, such as how to design MAS to incentivise certain behaviours in agents, how to design algorithms enabling one or more agents to achieve specified goals in a MAS, how information is communicated and propagated among agents, and how norms, conventions and roles may emerge in MAS. A vast array of applications can be addressed using MAS methodologies, including autonomous driving, multi-robot factories, automated trading, commercial games, automated tutoring, etc.",
+      "metadata": {
+        "provider": "tavily"
+      }
+    },
+    {
+      "title": "What is a multi-agent system? Definition, architecture, and ... - Celigo",
+      "url": "https://www.celigo.com/blog/multi-agent-systems/",
+      "snippet": "Echo Lu\n\nTwitter icon\nFacebook icon\nLinkedIn icon\n\nSome enterprise problems cannot be solved by a single intelligent agent. Too many systems, too many domains, too many interdependencies. Some enterprise problems are better handled by multiple specialized agents than by a single agent coordinating every step itself.\n\nMulti-agent systems (MAS) are the architectural answer to that class of problem.\n\nA multi-agent system is a network of autonomous software or AI agents that collaborate, coordinate, or compete within a shared environment to accomplish goals that exceed the scope of any single agent. In modern enterprise AI deployments, those agents often use LLMs or other decision engines to reason and act across systems. [...] Single-agent systems suit well-defined, repeatable tasks where centralized control is sufficient. Fraud detection on a single data source. Recommendation logic within one platform. Document classification within a defined schema. They are simpler to design, easier to debug, and produce predictable results within their scope.\n\nMulti-agent systems operate differently. Specialized agents model each other’s goals, share state or memory, and coordinate actions across a distributed environment. Each agent works within its domain. The system as a whole delivers outcomes that require parallel execution, domain specialization, or cross-system data flows spanning systems of record with different schemas, access models, and ownership rules. [...] ### What is a multi-agent LLM system?\n\nA multi-agent LLM system is a MAS where each agent uses a large language model as its primary reasoning engine. The LLM interprets inputs, formulates plans, and determines actions. The agent framework handles execution, memory, and coordination. These systems suit tasks requiring natural language reasoning across multiple domains, but they introduce coordination complexity and computational cost that require careful architecture and governed integration to manage at enterprise scale.\n\n### Why do multi-agent LLM systems fail in production?",
+      "metadata": {
+        "provider": "tavily"
+      }
+    },
+    {
+      "title": "What is a Multi-Agent System? | IBM",
+      "url": "https://www.ibm.com/think/topics/multiagent-system",
+      "snippet": "# What is a multi-agent system?\n\nBy Anna Gutowska\n\nA multi-agent system (MAS) consists of multiple artificial intelligence (AI) agents working collectively to perform tasks on behalf of a user or another system.\n\nEach agent within a MAS has individual properties but all agents behave collaboratively to lead to desired global properties.1 Multi-agent systems are valuable in completing large-scale, complex tasks that can encompass hundreds, if not thousands, of agents.2 [...] Each entity within a multi-agent system is an autonomous agent to some extent. This autonomy is typically seen by the agent’s planning, tool calling and general reasoning. In a multi-agent system, agents remain autonomous but also cooperate and coordinate in agent structures.3 To solve complex problems, agent communication and distributed problem-solving are key. This type of agent interaction can be described as multi-agent reinforcement learning. The information shared through this form of learning can include instantaneous information acquired through sensors or actions. Additionally, an agent’s experiences in the form of episodic information can be shared. These episodes can be sequences of sensations, actions and learned policies. Finally, agents can share their experiences in",
+      "metadata": {
+        "provider": "tavily"
+      }
+    },
+    {
+      "title": "Multi Agent System in AI - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/artificial-intelligence/multi-agent-system-in-ai/",
+      "snippet": "geeksforgeeks\n\n Interview Prep\n\n Artificial Intelligence\n Interview Questions\n Project Ideas\n Search Algorithms\n Local Search Algorithm\n Generative AI\n Data Science\n Machine Learning\n Deep Learning\n ML-Projects\n Robotics\n\n# Multi Agent System in AI\n\nLast Updated : 29 Aug, 2025\n\nMulti-Agent System (MAS) is a computational system where multiple agents, interact with each other and with their environment to achieve their individual or collective goals. Unlike single-agent systems where only one agent makes decisions, in MAS agents works by cooperation, competition or coordination with each other. It is widely used in complex models, distributed and dynamic problems that are too difficult for a single agent to solve alone.\n\nagent_interaction",
+      "metadata": {
+        "provider": "tavily"
+      }
+    }
+  ],
+  "research_notes": "1. **Definition**: A multi-agent system (MAS) is a collection of autonomous agents that perceive their environment, make decisions, and interact with one another to achieve common or conflicting goals (Sources: [1], [2], [4]).\n\n2. **Advantages**: MAS offers scalability, resilience, improved coordination, and enhanced problem-solving capabilities compared to single-agent systems (Sources: [1], [3]).\n\n3. **Architecture**: Each agent in a MAS operates within a shared environment, can reason about observations, and take actions towards goals. Agents often utilize large language models (LLMs) for reasoning and task planning (Sources: [1], [3]).\n\n4. **Collaboration**: Agents in a MAS can cooperate, compete, or coordinate, allowing them to handle complex tasks that exceed the capabilities of a single agent (Sources: [3], [5]).\n\n5. **Communication**: Effective MAS relies on communication channels, cooperation strategies, and clear role definitions among agents (Source: [1]).\n\n6. **Applications**: MAS methodologies can be applied in various fields, including autonomous driving, multi-robot factories, automated trading, and commercial games (Source: [2]).\n\n7. **Design Considerations**: Designing a MAS requires careful attention to constraints, oversight, simulation testing, and feedback mechanisms to ensure safety and effectiveness (Source: [1]).\n\n8. **Comparison with Single-Agent Systems**: Unlike single-agent systems, which handle tasks sequentially, MAS allows for parallel execution and specialization, making them better suited for complex workflows (Source: [1]).",
+  "analysis_notes": "### Structured Analysis of Multi-Agent Systems (MAS)\n\n#### Key Findings\n\n1. **Definition and Functionality**:\n   - A multi-agent system (MAS) consists of autonomous agents that interact within a shared environment to achieve individual or collective goals. This interaction can be cooperative or competitive (Sources: [1], [2], [4]).\n\n2. **Advantages Over Single-Agent Systems**:\n   - MAS provides significant benefits such as scalability, resilience, improved coordination, and enhanced problem-solving capabilities. These advantages stem from the ability of multiple agents to work simultaneously rather than sequentially (Sources: [1], [3]).\n\n3. **Architecture and Reasoning**:\n   - Agents in a MAS utilize reasoning capabilities, often supported by large language models (LLMs), to interpret their environment and plan actions effectively (Sources: [1], [3]).\n\n4. **Collaboration and Task Management**:\n   - The system allows agents to collaborate, compete, or coordinate, which is essential for managing complex tasks that would be challenging for a single agent (Sources: [3], [5]).\n\n5. **Communication and Coordination**:\n   - Effective communication channels and clear role definitions among agents are crucial for the success of a MAS. This facilitates cooperation and ensures that agents can work towards their goals efficiently (Source: [1]).\n\n6. **Applications**:\n   - MAS methodologies are versatile and can be applied in diverse fields such as autonomous driving, multi-robot factories, automated trading, and commercial gaming (Source: [2]).\n\n7. **Design Considerations**:\n   - Designing a MAS involves careful planning regarding constraints, oversight, simulation testing, and feedback mechanisms to ensure safety and effectiveness (Source: [1]).\n\n8. **Comparison with Single-Agent Systems**:\n   - MAS outperforms single-agent systems in handling complex workflows due to its ability to execute tasks in parallel and allow for specialization among agents (Source: [1]).\n\n#### Tradeoffs\n\n- **Complexity**: While MAS offers enhanced capabilities, the complexity of designing and managing multiple agents can be a significant challenge. This includes ensuring effective communication and coordination among agents.\n  \n- **Resource Management**: The need for resources (computational, communication bandwidth, etc.) can increase with the number of agents, potentially leading to inefficiencies if not managed properly.\n\n- **Conflict Resolution**: In scenarios where agents have conflicting goals, mechanisms must be in place to resolve disputes, which can complicate system design.\n\n#### Evidence Gaps\n\n- **Empirical Studies**: There is a lack of extensive empirical studies comparing the performance of MAS against single-agent systems in real-world applications. Most claims about advantages are based on theoretical frameworks or simulations rather than robust field data.\n\n- **Long-term Scalability**: While scalability is cited as an advantage, there is insufficient evidence regarding the long-term sustainability and performance of MAS as the number of agents increases.\n\n- **Impact of Communication**: The effectiveness of communication strategies in MAS is crucial, yet there is limited research on how different communication protocols affect overall system performance.\n\n### Conclusion\nMulti-agent systems present a powerful framework for solving complex problems through the collaboration of autonomous agents. However, the design and implementation of such systems come with challenges that require careful consideration of tradeoffs and a need for further empirical research to validate theoretical claims.",
+  "final_answer": "### Understanding Multi-Agent Systems (MAS)\n\nA **multi-agent system (MAS)** is a framework comprising multiple autonomous agents that interact within a shared environment to achieve individual or collective goals. These agents can cooperate, compete, or coordinate their actions, making MAS particularly effective for managing complex tasks that exceed the capabilities of a single agent (Sources: [1], [2], [4]).\n\n#### Key Features of Multi-Agent Systems\n\n1. **Autonomy and Interaction**: Each agent operates independently, perceiving its environment and making decisions based on its observations. The interaction among agents can lead to both collaborative and competitive dynamics (Sources: [1], [2]).\n\n2. **Advantages Over Single-Agent Systems**: MAS provides significant benefits, including:\n   - **Scalability**: Multiple agents can handle larger tasks simultaneously.\n   - **Resilience**: The system can continue functioning even if some agents fail.\n   - **Improved Coordination**: Agents can specialize in different aspects of a task, enhancing overall efficiency (Sources: [1], [3]).\n\n3. **Architecture and Reasoning**: Agents in a MAS often utilize reasoning capabilities, frequently supported by large language models (LLMs), to interpret their environment and plan actions effectively (Sources: [1], [3]).\n\n4. **Collaboration and Task Management**: The ability of agents to work together allows for the management of complex workflows that would be challenging for a single agent (Sources: [3], [5]).\n\n5. **Communication**: Effective communication channels and clear role definitions among agents are crucial for successful collaboration and coordination (Source: [1]).\n\n6. **Applications**: MAS methodologies find applications in various fields, including:\n   - Autonomous driving\n   - Multi-robot factories\n   - Automated trading\n   - Commercial gaming (Source: [2]).\n\n7. **Design Considerations**: Designing a MAS involves careful planning regarding constraints, oversight, simulation testing, and feedback mechanisms to ensure safety and effectiveness (Source: [1]).\n\n8. **Comparison with Single-Agent Systems**: Unlike single-agent systems, which handle tasks sequentially, MAS allows for parallel execution and specialization, making them better suited for complex workflows (Source: [1]).\n\n#### Challenges and Tradeoffs\n\nWhile MAS offers enhanced capabilities, it also introduces complexities in design and management. Key challenges include:\n- **Resource Management**: Increased resource demands (computational power, communication bandwidth) can lead to inefficiencies if not managed properly.\n- **Conflict Resolution**: Mechanisms must be in place to resolve disputes among agents with conflicting goals, complicating system design (Sources: [1], [3]).\n\n#### Conclusion\n\nMulti-agent systems represent a powerful approach to solving complex problems through the collaboration of autonomous agents. However, the design and implementation of such systems require careful consideration of tradeoffs and a need for further empirical research to validate theoretical claims.\n\n### Sources\n1. Source [1]\n2. Source [2]\n3. Source [3]\n4. Source [4]\n5. Source [5]",
+  "agent_results": [
+    {
+      "agent": "supervisor",
+      "content": "Next route: researcher",
+      "metadata": {
+        "iteration": 1,
+        "errors": 0
+      }
+    },
+    {
+      "agent": "researcher",
+      "content": "1. **Definition**: A multi-agent system (MAS) is a collection of autonomous agents that perceive their environment, make decisions, and interact with one another to achieve common or conflicting goals (Sources: [1], [2], [4]).\n\n2. **Advantages**: MAS offers scalability, resilience, improved coordination, and enhanced problem-solving capabilities compared to single-agent systems (Sources: [1], [3]).\n\n3. **Architecture**: Each agent in a MAS operates within a shared environment, can reason about observations, and take actions towards goals. Agents often utilize large language models (LLMs) for reasoning and task planning (Sources: [1], [3]).\n\n4. **Collaboration**: Agents in a MAS can cooperate, compete, or coordinate, allowing them to handle complex tasks that exceed the capabilities of a single agent (Sources: [3], [5]).\n\n5. **Communication**: Effective MAS relies on communication channels, cooperation strategies, and clear role definitions among agents (Source: [1]).\n\n6. **Applications**: MAS methodologies can be applied in various fields, including autonomous driving, multi-robot factories, automated trading, and commercial games (Source: [2]).\n\n7. **Design Considerations**: Designing a MAS requires careful attention to constraints, oversight, simulation testing, and feedback mechanisms to ensure safety and effectiveness (Source: [1]).\n\n8. **Comparison with Single-Agent Systems**: Unlike single-agent systems, which handle tasks sequentially, MAS allows for parallel execution and specialization, making them better suited for complex workflows (Source: [1]).",
+      "metadata": {
+        "source_count": 5,
+        "input_tokens": 1431,
+        "output_tokens": 327,
+        "cost_usd": 0.00041084999999999993
+      }
+    },
+    {
+      "agent": "supervisor",
+      "content": "Next route: analyst",
+      "metadata": {
+        "iteration": 2,
+        "errors": 0
+      }
+    },
+    {
+      "agent": "analyst",
+      "content": "### Structured Analysis of Multi-Agent Systems (MAS)\n\n#### Key Findings\n\n1. **Definition and Functionality**:\n   - A multi-agent system (MAS) consists of autonomous agents that interact within a shared environment to achieve individual or collective goals. This interaction can be cooperative or competitive (Sources: [1], [2], [4]).\n\n2. **Advantages Over Single-Agent Systems**:\n   - MAS provides significant benefits such as scalability, resilience, improved coordination, and enhanced problem-solving capabilities. These advantages stem from the ability of multiple agents to work simultaneously rather than sequentially (Sources: [1], [3]).\n\n3. **Architecture and Reasoning**:\n   - Agents in a MAS utilize reasoning capabilities, often supported by large language models (LLMs), to interpret their environment and plan actions effectively (Sources: [1], [3]).\n\n4. **Collaboration and Task Management**:\n   - The system allows agents to collaborate, compete, or coordinate, which is essential for managing complex tasks that would be challenging for a single agent (Sources: [3], [5]).\n\n5. **Communication and Coordination**:\n   - Effective communication channels and clear role definitions among agents are crucial for the success of a MAS. This facilitates cooperation and ensures that agents can work towards their goals efficiently (Source: [1]).\n\n6. **Applications**:\n   - MAS methodologies are versatile and can be applied in diverse fields such as autonomous driving, multi-robot factories, automated trading, and commercial gaming (Source: [2]).\n\n7. **Design Considerations**:\n   - Designing a MAS involves careful planning regarding constraints, oversight, simulation testing, and feedback mechanisms to ensure safety and effectiveness (Source: [1]).\n\n8. **Comparison with Single-Agent Systems**:\n   - MAS outperforms single-agent systems in handling complex workflows due to its ability to execute tasks in parallel and allow for specialization among agents (Source: [1]).\n\n#### Tradeoffs\n\n- **Complexity**: While MAS offers enhanced capabilities, the complexity of designing and managing multiple agents can be a significant challenge. This includes ensuring effective communication and coordination among agents.\n  \n- **Resource Management**: The need for resources (computational, communication bandwidth, etc.) can increase with the number of agents, potentially leading to inefficiencies if not managed properly.\n\n- **Conflict Resolution**: In scenarios where agents have conflicting goals, mechanisms must be in place to resolve disputes, which can complicate system design.\n\n#### Evidence Gaps\n\n- **Empirical Studies**: There is a lack of extensive empirical studies comparing the performance of MAS against single-agent systems in real-world applications. Most claims about advantages are based on theoretical frameworks or simulations rather than robust field data.\n\n- **Long-term Scalability**: While scalability is cited as an advantage, there is insufficient evidence regarding the long-term sustainability and performance of MAS as the number of agents increases.\n\n- **Impact of Communication**: The effectiveness of communication strategies in MAS is crucial, yet there is limited research on how different communication protocols affect overall system performance.\n\n### Conclusion\nMulti-agent systems present a powerful framework for solving complex problems through the collaboration of autonomous agents. However, the design and implementation of such systems come with challenges that require careful consideration of tradeoffs and a need for further empirical research to validate theoretical claims.",
+      "metadata": {
+        "input_tokens": 385,
+        "output_tokens": 675,
+        "cost_usd": 0.00046275000000000005
+      }
+    },
+    {
+      "agent": "supervisor",
+      "content": "Next route: writer",
+      "metadata": {
+        "iteration": 3,
+        "errors": 0
+      }
+    },
+    {
+      "agent": "writer",
+      "content": "### Understanding Multi-Agent Systems (MAS)\n\nA **multi-agent system (MAS)** is a framework comprising multiple autonomous agents that interact within a shared environment to achieve individual or collective goals. These agents can cooperate, compete, or coordinate their actions, making MAS particularly effective for managing complex tasks that exceed the capabilities of a single agent (Sources: [1], [2], [4]).\n\n#### Key Features of Multi-Agent Systems\n\n1. **Autonomy and Interaction**: Each agent operates independently, perceiving its environment and making decisions based on its observations. The interaction among agents can lead to both collaborative and competitive dynamics (Sources: [1], [2]).\n\n2. **Advantages Over Single-Agent Systems**: MAS provides significant benefits, including:\n   - **Scalability**: Multiple agents can handle larger tasks simultaneously.\n   - **Resilience**: The system can continue functioning even if some agents fail.\n   - **Improved Coordination**: Agents can specialize in different aspects of a task, enhancing overall efficiency (Sources: [1], [3]).\n\n3. **Architecture and Reasoning**: Agents in a MAS often utilize reasoning capabilities, frequently supported by large language models (LLMs), to interpret their environment and plan actions effectively (Sources: [1], [3]).\n\n4. **Collaboration and Task Management**: The ability of agents to work together allows for the management of complex workflows that would be challenging for a single agent (Sources: [3], [5]).\n\n5. **Communication**: Effective communication channels and clear role definitions among agents are crucial for successful collaboration and coordination (Source: [1]).\n\n6. **Applications**: MAS methodologies find applications in various fields, including:\n   - Autonomous driving\n   - Multi-robot factories\n   - Automated trading\n   - Commercial gaming (Source: [2]).\n\n7. **Design Considerations**: Designing a MAS involves careful planning regarding constraints, oversight, simulation testing, and feedback mechanisms to ensure safety and effectiveness (Source: [1]).\n\n8. **Comparison with Single-Agent Systems**: Unlike single-agent systems, which handle tasks sequentially, MAS allows for parallel execution and specialization, making them better suited for complex workflows (Source: [1]).\n\n#### Challenges and Tradeoffs\n\nWhile MAS offers enhanced capabilities, it also introduces complexities in design and management. Key challenges include:\n- **Resource Management**: Increased resource demands (computational power, communication bandwidth) can lead to inefficiencies if not managed properly.\n- **Conflict Resolution**: Mechanisms must be in place to resolve disputes among agents with conflicting goals, complicating system design (Sources: [1], [3]).\n\n#### Conclusion\n\nMulti-agent systems represent a powerful approach to solving complex problems through the collaboration of autonomous agents. However, the design and implementation of such systems require careful consideration of tradeoffs and a need for further empirical research to validate theoretical claims.\n\n### Sources\n1. Source [1]\n2. Source [2]\n3. Source [3]\n4. Source [4]\n5. Source [5]",
+      "metadata": {
+        "input_tokens": 1071,
+        "output_tokens": 624,
+        "cost_usd": 0.00053505
+      }
+    },
+    {
+      "agent": "supervisor",
+      "content": "Next route: done",
+      "metadata": {
+        "iteration": 4,
+        "errors": 0
+      }
+    }
+  ],
+  "trace": [
+    {
+      "name": "supervisor",
+      "payload": {
+        "next_route": "researcher",
+        "iteration": 1
+      }
+    },
+    {
+      "name": "researcher",
+      "payload": {
+        "source_count": 5,
+        "cost_usd": 0.00041084999999999993
+      }
+    },
+    {
+      "name": "supervisor",
+      "payload": {
+        "next_route": "analyst",
+        "iteration": 2
+      }
+    },
+    {
+      "name": "analyst",
+      "payload": {
+        "cost_usd": 0.00046275000000000005
+      }
+    },
+    {
+      "name": "supervisor",
+      "payload": {
+        "next_route": "writer",
+        "iteration": 3
+      }
+    },
+    {
+      "name": "writer",
+      "payload": {
+        "cost_usd": 0.00053505
+      }
+    },
+    {
+      "name": "supervisor",
+      "payload": {
+        "next_route": "done",
+        "iteration": 4
+      }
+    }
+  ],
+  "errors": []
+}
