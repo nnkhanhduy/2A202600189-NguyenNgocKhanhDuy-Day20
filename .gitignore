@@ -11,3 +11,7 @@ build/
 reports/*.json
 reports/*.md
 !.gitkeep
+.gitnexus
+.claude
+AGENTS.md
+CLAUDE.md
